@@ -7,8 +7,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
     <Product>CHIMP</Product>
+    <Authors>Dmitry Shechtman</Authors>
     <Copyright>Copyright © 2017 Dmitry Shechtman</Copyright>
   </PropertyGroup>
 
@@ -16,7 +17,6 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Net.Chdk.Meta.Writers.Software.Json</Title>
     <PackageVersion>$(Version)-alpha</PackageVersion>
-    <Authors>Dmitry Shechtman</Authors>
     <PackageIconUrl>https://raw.githubusercontent.com/CHDKUtil/CHIMP/master/tiny.png</PackageIconUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/CHDKUtil/Net.Chdk.Meta.Writers.Software.Json/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/CHDKUtil/Net.Chdk.Meta.Writers.Software.Json</PackageProjectUrl>
@@ -37,7 +37,7 @@
   <ItemGroup>
     <PackageReference Include="microsoft.extensions.dependencyinjection.abstractions" Version="1.1.1" />
     <PackageReference Include="Net.Chdk.Meta.Writers.Json" Version="0.1.0-alpha" />
-    <PackageReference Include="Net.Chdk.Meta.Writers.Software.Core" Version="0.1.0-alpha" />
+    <PackageReference Include="Net.Chdk.Meta.Writers.Software.Core" Version="0.2.0-alpha" />
   </ItemGroup>
 
 </Project>
